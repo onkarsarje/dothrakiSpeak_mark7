@@ -1,0 +1,31 @@
+:root{
+    --primary-color: #86663D;
+    --secondary-color: #FFD371;
+}
+
+body {
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    display: grid;
+    place-content: center;
+    padding: 1rem;
+    row-gap: 0.8rem;
+}
+
+#txt-input{
+    background: var(--primary-color);
+    border: solid var(--secondary-color);
+    color: var(--secondary-color);
+}
+
+#btn-translate{
+    display: block;
+     margin-top: 1rem;
+     margin: auto;
+     background: transparent;
+     color: var(--secondary-color);
+     border-color: var(--secondary-color);
+     border-width: medium;
+     padding: 0.5;
+     border-radius: 0.3rem;
+   }
