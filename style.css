@@ -1,15 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+
 :root{
     --primary-color: #86663D;
     --secondary-color: #FFD371;
+
 }
 
 body {
     background: var(--primary-color);
     color: var(--secondary-color);
-    /* display: grid; */
     place-content: center;
     padding: 1rem;
     row-gap: 0.8rem;
+    
+}
+
+#heading{
+    font-family:'Luckiest Guy', cursive;
+}
+
+#output{
+    font-family:'Luckiest Guy', cursive;
 }
 
 #txt-input{
@@ -41,3 +53,8 @@ footer {
     font-weight: bold;
     margin-top: 5rem;
 }
+
+::placeholder {
+    color: var(--secondary-color);
+    opacity: 0.5;
+  }
